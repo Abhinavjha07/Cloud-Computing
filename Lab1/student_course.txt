@@ -1,0 +1,13 @@
+1601002 Abhinav 5 CS301 Theory_of_Computation
+1601002 Abhinav 5 CS352 Computer_Networks
+1601002 Abhinav 5 CS353 Computer_Networks_Lab
+1601002 Abhinav 5 CS351 IT_Workshop_III:Cloud_Computing
+1601002 Abhinav 5 CS306 Machine_Learning
+1601002 Abhinav 5 CS316 Machine_Learning_Lab
+1601002 Abhinav 5 SC301 Biology
+1601002 Abhinav 5 HS303 Indian_Writing_in_English
+1401002 Abhinav 8 CS410 Project_III
+1401002 Abhinav 8 HS404 Language,Cognition_and_Culture_II
+1401002 Abhinav 8 CS415 Ubiquitous_Computing
+1401002 Abhinav 8 CS412 Algorithmic_Game_Theory
+1401002 Abhinav 8 CS470 Network_Science

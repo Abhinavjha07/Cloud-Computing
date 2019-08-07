@@ -1,0 +1,8 @@
+CS401 Number_Theory_in_Cryptography
+CS430 Parallel_Programming
+CS440 Image_and_Video_Processing
+CS414 Advanced_Computer_Architecture
+CS412 Algorithmic_Game_Theory
+CS415 Ubiquitous_Computing
+CS460 Financial_Engineering
+CS470 Network_Science

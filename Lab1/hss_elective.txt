@@ -1,0 +1,15 @@
+HS101 English_(P/NP)
+HS102 Economics
+HS201 Introduction_to_Linguistics
+HS202 Language_and_Society
+HS203 Science_Fiction
+HS204 Introduction_to_Politics
+HS301 Macroeconomic_Problems_and_Policies
+HS302 Language,Cognition_and_Culture
+HS303 Indian_Writing_in_English
+HS304 Science,Technology_and_Society
+HS401 Consumer_Behaviour_and_Welfare_Economics
+HS402 Understanding_Democracy_and_Governance_in_India
+HS403 Science_Fiction_II
+HS404 Language,Cognition_and_Culture_II
+HS405 Issues_in_International_Trade_and_Finance
