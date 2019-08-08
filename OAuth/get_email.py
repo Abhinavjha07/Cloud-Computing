@@ -25,12 +25,12 @@ GMAIL = discovery.build('gmail', 'v1', http=creds.authorize(Http()))
 service = build('gmail', 'v1', http=creds.authorize(Http()))	
 
 
-user_id =  'jhaabhinav1998@gmail.com'
+user_id =  ''
 label_id_one = 'INBOX'
 label_id_two = 'UNREAD'
 
-unread_msgs = GMAIL.users().messages().list(userId='jhaabhinav1998@gmail.com',labelIds=[label_id_one, label_id_two]).execute()
-read_msgs = GMAIL.users().messages().list(userId='jhaabhinav1998@gmail.com',labelIds=[label_id_one]).execute()
+unread_msgs = GMAIL.users().messages().list(userId='',labelIds=[label_id_one, label_id_two]).execute()
+read_msgs = GMAIL.users().messages().list(userId='',labelIds=[label_id_one]).execute()
 
 mssg_list = unread_msgs['messages']
 mssg_list2 = read_msgs['messages']
