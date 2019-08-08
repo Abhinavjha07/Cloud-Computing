@@ -1,7 +1,7 @@
 import boto3
 import botocore
 
-bucket= 'bucket191998'
+bucket= ''
 
 key = 'sample.txt'
 
