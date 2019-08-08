@@ -16,7 +16,7 @@ print('\n\n')
 #create ec2 instance
 print('Container Instance ')
 response = ec2_client.run_instances(
-    ImageId = "ami-09a64272e7fe706b6",
+    ImageId = "",
     MinCount=1,
     MaxCount=1,
     InstanceType='t2.micro',
@@ -24,7 +24,7 @@ response = ec2_client.run_instances(
         "Name": "Lab"
         },
     SecurityGroups = ['default'],
-    KeyName='Abhi',
+    KeyName='',
     UserData = "#!/bin/bash \n echo ECS_CLUSTER ="+cluster_name+ " >> /etc/ecs/ecs.config",
    
 )
@@ -55,8 +55,8 @@ response = ecs_client.register_task_definition(
         {
             "environment" : [
                 {
-                    "name" : "MYSQL_ROOT_PASSWORD",
-                    "value" : "password"
+                    "name" : "",
+                    "value" : ""
                     }
                 ],
             "name": "mysql",
