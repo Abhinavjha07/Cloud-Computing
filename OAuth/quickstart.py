@@ -129,7 +129,7 @@ def main():
     msgHtml = "HTML TEXT<br/><h1><font color='red'>Html Email</font>"
     msgPlain = "Sent from Python App"
     '''
-    sender = "jhaabhinav1998@gmail.com"
+    sender = ""
     print("Enter Destination Mail")
     to = input()
    
