@@ -51,12 +51,12 @@ aws s3 cp s3://bucket191998/error.html /var/www/html/
 """
 
 new_instance = ec2.create_instances(
-    ImageId= 'ami-8c122be9',
+    ImageId= '',
     MinCount = 1,
     MaxCount= 1,
     InstanceType = 't2.micro',
     SecurityGroups = ['Lab2'],
-    KeyName = "Abhi",
+    KeyName = "",
     UserData = user_data_script
     )
 
