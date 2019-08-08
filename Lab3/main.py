@@ -5,12 +5,12 @@ def create_Instance(k):
    
     
     new_instances = ec2.create_instances(
-        ImageId= 'ami-8c122be9',
-        MinCount = 1,
-        MaxCount= k,
-        InstanceType = 't2.micro',
+        ImageId= '',
+        MinCount = ,
+        MaxCount= ,
+        InstanceType = '',
         SecurityGroups = ['default'],
-        KeyName = "Abhi"
+        KeyName = ""
         )
     for instance in new_instances:
         instance.create_tags(Tags=[{'Key':'Name','Value':"LAB3"}])
