@@ -8,11 +8,11 @@ website_config = {
     }
 
 s3.put_bucket_website(
-    Bucket = 'bucket191998',
+    Bucket = '',
     WebsiteConfiguration = website_config
     )
 
-bucket = 'bucket191998'
+bucket = ''
 
 files = ('homepage.html','Error.html','About.html','kinds.html','Types.html')
 
