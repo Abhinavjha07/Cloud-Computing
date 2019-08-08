@@ -6,14 +6,14 @@ from boto.ec2.cloudwatch import MetricAlarm
 from boto.ec2.autoscale import ScalingPolicy
 import boto.ec2.cloudwatch
 
-access_key_id='AKIAJFXCKF4HG2Q2MMZA';
-secret_access_key='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';
+access_key_id='';
+secret_access_key='';
 
 
 REGION = 'us-east-2'
-AMI = 'ami-8c122be9'
+AMI = ''
 TYPE = 't2.micro'
-KEYNAME = 'Abhi'
+KEYNAME = ''
 SECURITY = 'Lab2'
 Data = '''
 #! /bin/bash
@@ -33,7 +33,7 @@ find /var/www -type f -exec chmod 0664 {} \;
 '''
 #Command to copy a file from local machine to ec2 instance
 '''
-scp -i Abhi.pem commands.sh ec2-user@ec2-18-220-150-44.us-east-2.compute.amazonaws.com:
+
 '''
 
 
